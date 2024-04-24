@@ -1,6 +1,6 @@
 AOS.init();
 
-const dateEvent = new Date("May 23, 2024 19:00:00");
+const dateEvent = new Date("Jun 11, 2024 19:00:00");
 const timeStampEvent = dateEvent.getTime();
 
 const timer = setInterval(function() {
@@ -23,6 +23,6 @@ const timer = setInterval(function() {
     console.log(mntToEvent);
     console.log(sgdToEvent);
 
-    document.getElementById('timer').innerHTML = `${dayOfEvent}d ${hrToEvent}h ${mntToEvent}m ${sgdToEvent}`;
+    document.getElementById('timer').innerHTML = `${dayOfEvent} dias ${hrToEvent} horas ${mntToEvent} mes ${sgdToEvent} segundos`;
 }, 1000);
 
